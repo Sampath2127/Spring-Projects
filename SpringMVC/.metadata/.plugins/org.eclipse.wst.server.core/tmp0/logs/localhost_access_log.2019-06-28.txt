@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [28/Jun/2019:10:24:07 -0400] "POST /spring_mvc_webapp_demo/customer/processForm HTTP/1.1" 200 918
+0:0:0:0:0:0:0:1 - - [28/Jun/2019:10:24:19 -0400] "GET /spring_mvc_webapp_demo/ HTTP/1.1" 200 222
+0:0:0:0:0:0:0:1 - - [28/Jun/2019:10:41:29 -0400] "GET /spring_mvc_webapp_demo/customer/showForm HTTP/1.1" 200 817
+0:0:0:0:0:0:0:1 - - [28/Jun/2019:10:41:32 -0400] "POST /spring_mvc_webapp_demo/customer/processForm HTTP/1.1" 200 1158

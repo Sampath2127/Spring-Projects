@@ -1,0 +1,40 @@
+package com.lovecoding.jdbc;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import com.lovecoding.hibernateEntity.Student;
+
+public class PrimaryKeyDemo {
+
+	public static void main(String[] args) {
+		SessionFactory factory=new Configuration().configure() //can use .configure("hibernate-cfg file path")
+				.addAnnotatedClass(Student.class)
+				.buildSessionFactory();
+	
+		Session session=factory.getCurrentSession();
+		Student student1 = new Student("Laxmi", "Komsani", "laxmi.komsani@gmail.com");
+		Student student2 = new Student("Narayan", "Komsani", "narayan.komsani@gmail.com");
+		Student student3 = new Student("Sampath", "Komsani", "sampath.komsani@gmail.com");
+		Student student4 = new Student("Sandeep", "Komsani", "sandeep.komsani@gmail.com");
+		Student student5 = new Student("Ambika", "Komsani", "ambika.komsani@gmail.com");
+		Student student6 = new Student("Shriyansh", "Komsani", "shriyansh.komsani@gmail.com");
+		try{
+		session.beginTransaction();
+		session.save(student1);
+		session.save(student2);
+		session.save(student3);
+		session.save(student4);
+		session.save(student5);
+		session.save(student6);
+		session.getTransaction().commit();
+		System.out.println("Student saved..!");
+		}
+		finally{
+			session.close();
+			factory.close();
+		}
+		
+	}
+}

@@ -1,0 +1,39 @@
+package com.lovecoding.springmvc.beans;
+
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Size;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class CustomerDetails {
+
+	@NotNull(message="Mandatory Feild")
+	@Size(min=1)
+	//@Pattern(regexp="^[a-zA-Z0-9]{5}", message="Enter only alphabets upto 15 characters")
+	private String customerName;
+	private String customerEmail;
+	private String phoneNumber;
+	
+	
+	public String getCustomerName() {
+		return customerName;
+	}
+	public void setCustomerName(String customerName) {
+		this.customerName = customerName;
+	}
+	public String getCustomerEmail() {
+		return customerEmail;
+	}
+	public void setCustomerEmail(String customerEmail) {
+		this.customerEmail = customerEmail;
+	}
+	public String getPhoneNumber() {
+		return phoneNumber;
+	}
+	public void setPhoneNumber(String phoneNumber) {
+		this.phoneNumber = phoneNumber;
+	}
+	
+}

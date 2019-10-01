@@ -1,0 +1,18 @@
+
+fsquid:S1481$"-Remove this unused "student3" local variable.(Øû¥¤ûÿÿÿÿ8ÅîóÚº-H‰RMINORZ
+CODE_SMELL
+squid:S1192""XDefine a constant instead of duplicating this literal "laxmi.komsani@gmail.com" 4 times.(€ÜØ—8ÅîóÚº-HŠRCRITICALZ
+CODE_SMELL
+}squid:S1192""FDefine a constant instead of duplicating this literal "Laxmi" 4 times.(€ÜØ—8ÅîóÚº-H‹RCRITICALZ
+CODE_SMELL
+squid:S1192""HDefine a constant instead of duplicating this literal "Komsani" 4 times.(€ÜØ—8ÅîóÚº-HŒRCRITICALZ
+CODE_SMELL
+asquid:S1481#"-Remove this unused "student2" local variable.(íÅü8ÅîóÚº-HRMINORZ
+CODE_SMELL
+q
+squid:S106*"9Replace this use of System.out or System.err by a logger.(ú…¥Ãùÿÿÿÿ8Ôóş×º-HRMAJORZ
+CODE_SMELL
+fsquid:S1481%"-Remove this unused "student4" local variable.(â›¶Üüÿÿÿÿ8ÅîóÚº-HRMINORZ
+CODE_SMELL
+}squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(úéÑÿÿÿÿÿHRMAJORZ
+CODE_SMELL

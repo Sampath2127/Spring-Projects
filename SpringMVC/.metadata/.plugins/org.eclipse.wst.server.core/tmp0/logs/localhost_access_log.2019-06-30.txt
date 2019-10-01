@@ -1,0 +1,10 @@
+127.0.0.1 - - [30/Jun/2019:17:20:30 -0400] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [30/Jun/2019:17:20:32 -0400] "GET /spring_mvc_webapp_demo/ HTTP/1.1" 200 222
+0:0:0:0:0:0:0:1 - - [30/Jun/2019:17:20:40 -0400] "GET /spring_mvc_webapp_demo/customer/showForm HTTP/1.1" 200 817
+0:0:0:0:0:0:0:1 - - [30/Jun/2019:17:21:14 -0400] "POST /spring_mvc_webapp_demo/customer/processForm HTTP/1.1" 200 970
+0:0:0:0:0:0:0:1 - - [30/Jun/2019:17:21:24 -0400] "POST /spring_mvc_webapp_demo/customer/processForm HTTP/1.1" 200 343
+0:0:0:0:0:0:0:1 - - [30/Jun/2019:17:21:31 -0400] "POST /spring_mvc_webapp_demo/customer/processForm HTTP/1.1" 200 343
+0:0:0:0:0:0:0:1 - - [30/Jun/2019:17:26:13 -0400] "POST /spring_mvc_webapp_demo/customer/processForm HTTP/1.1" 200 920
+0:0:0:0:0:0:0:1 - - [30/Jun/2019:17:27:17 -0400] "POST /spring_mvc_webapp_demo/customer/processForm HTTP/1.1" 500 13034
+0:0:0:0:0:0:0:1 - - [30/Jun/2019:17:27:23 -0400] "POST /spring_mvc_webapp_demo/customer/processForm HTTP/1.1" 200 1035
+0:0:0:0:0:0:0:1 - - [30/Jun/2019:17:27:29 -0400] "POST /spring_mvc_webapp_demo/customer/processForm HTTP/1.1" 200 919
